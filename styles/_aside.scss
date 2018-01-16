@@ -1,0 +1,41 @@
+.aside{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  .aside1{
+    width: 70%;
+  }
+  .row{
+    display: flex;
+    flex-direction: row;
+  margin-left: 80px;
+  }
+}
+.aside2{
+  width: 25%;
+  border-left: 2px solid black;
+  margin-left: 20px;
+}
+
+@media only screen and (max-width: 760px) {
+  .aside{
+    flex-direction: column-reverse;
+    width: 100%;
+  }
+  .left{
+    margin-left: 20px;
+    border-left: none;
+  }
+  .aside2{
+    border-left: none !important;
+    width: 100%;
+  }
+  .left{
+    // width: 100%;
+  }
+  .row{
+    display: none;
+    flex-direction: none;
+  }
+
+}

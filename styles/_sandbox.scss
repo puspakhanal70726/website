@@ -1,0 +1,82 @@
+@import "variables";
+
+.contSandbox{
+  height: auto;
+  background-color: $background;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.pickerPic{
+  display: block;
+  margin: 0 auto;
+  padding-top: 50px;
+}
+
+#picture{
+  display: none;
+}
+
+.colorInput{
+  display: block;
+  text-align: center;
+  padding-top: 50px;
+  font-family: $Titillium;
+  color: $colorOne;
+  padding-bottom: 20px;
+
+  span{
+    padding: 0 20px;
+  }
+}
+
+
+#color-input {
+  display: none;
+}
+
+#color-picker {
+  margin-left: 35%;//fix later
+  margin-top: 50px;
+  padding: 5px;
+}
+
+.sampleText{
+  padding: 25px 30px;
+  p{
+    font-size: 16px;
+    line-height: 1.5;
+    padding-bottom: 15px;
+    font-family: $Titillium;
+    color: $colorOne;
+  }
+}
+
+.colorOutput{
+  // text-align: center;
+
+  h2, p{
+    color: $colorThree;
+    font-family: $Titillium;
+    font-size: 16px;
+    padding: 0 10px;
+  }
+  div{
+    display: flex;
+    flex-direction: row;
+    padding: 15px;
+    justify-content: center;
+  }
+}
+
+#drawing{
+  border: 1px solid black;
+  background-color: white;
+  padding-left: 0;
+  padding-right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-bottom: 30px;
+  box-shadow: 5px 5px 20px black;;
+}

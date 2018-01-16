@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Profile</title>
+  <meta name="”viewport”" content="”width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="../style.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700" rel="stylesheet">
+</head>
+<body>
+  <header class="header">
+    <div class="logo"><a href="../index.html">DOCUMENTED LEARNING</a></div>
+    <div class="navigation">
+      <a href="https://puspakhanal70726.github.io/" target="_blank">FALL 2017 BLOG</a>
+      <span></span>
+      <a href="first.html">ABOUT THE AUTHOR</a>
+      <span></span>
+      <a href="second.html">SANDBOX</a>
+    </div>
+  </header>
+  <div class="contSandbox" id="background">
+    <input type="checkbox" id="color-input" checked></input>
+
+    <div id="color-picker">
+      <canvas id="color-block" height="300" width="300"></canvas>
+      <canvas id="color-strip" height="300" width="60"></canvas>
+    </div>
+
+    <div class="colorInput">
+      <input type="radio" name="color" checked="checked" value="bgColor" class="changeLabels">Background
+      <span>|</span>
+      <input type="radio" name="color" value="color1" class="changeLabels">Header &amp; Footer
+      <span>|</span>
+      <input type="radio" name="color" value="color2" class="changeLabels">Menu Text
+      <span>|</span>
+      <input type="radio" name="color" value="color3" class="changeLabels">Sample Text
+    </div>
+    <div class="colorOutput">
+      <div>
+        <h2 class="changeLabels">RGB:</h2>
+        <p class="changeLabels" id="rgb">Not Available</p>
+      </div>
+      <div>
+        <h2 class="changeLabels">HEX:</h2>
+        <p class="changeLabels" id="hex">Not Available</p>
+      </div>
+    </div>
+    <div class="sampleText">
+      <p class="changeText">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <p class="changeText">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    </div>
+
+    <div class="drawingCanvas">
+      <canvas height="300" width="500" id="drawing"></canvas>
+    </div>
+  </div>
+  <footer>
+      <p class="footer1">All rights reserved</p>
+    </footer>
+  <script src="../scripts/jquery-3.2.1.js"></script>
+  <script src="../scripts/picker.js"></script>
+  <script
+  src="http://code.jquery.com/color/jquery.color-2.1.2.js"
+  integrity="sha256-1Cn7TdfHiMcEbTuku97ZRSGt2b3SvZftEIn68UMgHC8="
+  crossorigin="anonymous"></script>
+
+</body>
+</html>
